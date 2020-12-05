@@ -1,0 +1,20 @@
+nav{
+  display: flex !important;
+  justify-content: space-between;
+  background-color: #FBE192;
+  padding-left: 10px;
+  padding-bottom: 0.25rem;
+}
+
+nav *{
+  margin-bottom: 0 !important;
+}
+
+nav>div:nth-child(2){
+  display: flex;
+  align-items: center;
+}
+
+nav>div:nth-child(2)>p{
+  padding-right: 20px;
+}
